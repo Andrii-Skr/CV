@@ -1,0 +1,181 @@
+body {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+.mainContainer {
+  padding: 20px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  min-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aside {
+  --aside-bg-color: #1e2939;
+  --aside-text-color: #ffffff;
+  --aside-el-color: #fb6d3a;
+
+  background-color: var(--aside-bg-color);
+}
+.aside h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+.aside h2 {
+  margin-right: 90px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.aside li > span,
+.aside a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.asideInfo a,
+.aside li span {
+  color: var(--aside-text-color);
+}
+.asideInfo a {
+  margin-left: 5px;
+}
+.aside li {
+  color: var(--aside-el-color);
+}
+.photo img {
+  margin-top: 40px;
+  max-width: 370px;
+}
+.asideInfo {
+  margin-top: 50px;
+  margin-left: 40px;
+  color: var(--aside-text-color);
+}
+.asideInfo ul {
+  padding-left: 20px;
+}
+.main {
+  --main-bg-color: #ffffff;
+  --main-headerText-color: #000000;
+  --main-secondaryHeaderText-color: #fb6d3a;
+  --main-text-color: #595959;
+  --main-secondaryText-color: #a8a8a8;
+
+  background-color: var(--main-bg-color);
+  width: 100%;
+  padding: 90px;
+}
+
+.main h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.main h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.main h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.work p,
+.education p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main .about p,
+.main li,
+.main .listText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.about {
+  width: 470px;
+}
+.main .about p,
+.main .work li {
+  color: var(--main-text-color);
+}
+main h1,
+main h2,
+main h3,
+main h4 {
+  color: var(--main-headerText-color);
+}
+.education h3 {
+  color: var(--main-secondaryHeaderText-color);
+  margin-top: 10px;
+}
+.work p,
+.education p {
+  color: var(--main-secondaryText-color);
+}
+.main h3 > span {
+  color: var(--main-secondaryHeaderText-color);
+}
+.main ol,
+.main ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.projects ol span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects ol span span:nth-child(2) {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border-bottom: 1px dotted var(--main-text-color);
+  height: 1em;
+  margin: 0 0.4em;
+}
+.main .listLaps {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.main .projects li,
+.main .listLaps {
+  color: var(--main-headerText-color);
+  font-weight: 700;
+}
+.main .projects li a {
+  color: var(--main-text-color);
+  font-weight: 400;
+  margin-left: 5px;
+}
