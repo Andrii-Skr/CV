@@ -62,10 +62,18 @@ body {
 .asideInfo ul {
   padding-left: 20px;
 }
+.asideInfo img {
+  height: 20px;
+}
+.asideContacts {
+  display: flex;
+  align-items: center;
+}
+
 .main {
   --main-bg-color: #ffffff;
   --main-headerText-color: #000000;
-  --main-secondaryHeaderText-color: #fb6d3a;
+  --main-secondaryHeaderText-color: #3a47fb;
   --main-text-color: #595959;
   --main-secondaryText-color: #a8a8a8;
 
@@ -126,6 +134,9 @@ body {
 .about {
   width: 470px;
 }
+.projects {
+  width: 400px;
+}
 .main .about p,
 .main .work li {
   color: var(--main-text-color);
@@ -136,10 +147,7 @@ main h3,
 main h4 {
   color: var(--main-headerText-color);
 }
-.education h3 {
-  color: var(--main-secondaryHeaderText-color);
-  margin-top: 10px;
-}
+
 .work p,
 .education p {
   color: var(--main-secondaryText-color);
@@ -156,6 +164,12 @@ main h4 {
 .projects ol span {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.projects ol img {
+  height: 30px;
+  padding: 5px;
 }
 
 .projects ol span span:nth-child(2) {
@@ -166,12 +180,7 @@ main h4 {
   height: 1em;
   margin: 0 0.4em;
 }
-.main .listLaps {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.main .projects li,
-.main .listLaps {
+.main .projects li {
   color: var(--main-headerText-color);
   font-weight: 700;
 }
