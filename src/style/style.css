@@ -53,6 +53,7 @@ body {
 .photo img {
   margin-top: 40px;
   max-width: 370px;
+  height: 300px;
 }
 .asideInfo {
   margin-top: 50px;
